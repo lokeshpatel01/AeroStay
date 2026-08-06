@@ -6,7 +6,7 @@ AeroStay is a full-stack web application that allows users to discover, create, 
 
 ## 💻 GitHub Repository
 
-👉 [https://github.com/iammadhu123/Project-StayHub.git](https://github.com/lokeshpatel01/Project-AeroStay.git)
+👉 (https://github.com/lokeshpatel01/Project-AeroStay.git)
 
 ---
 
@@ -54,7 +54,7 @@ AeroStay is a full-stack web application that allows users to discover, create, 
 ## 📁 Project Structure
 
 ```
-Project-StayHub/
+Project-AeroStay/
 ├── controllers/          # Request handlers
 │   ├── listings.js
 │   ├── reviews.js
