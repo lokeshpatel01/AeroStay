@@ -1,18 +1,12 @@
-# StayHub – Luxury Stays & Unique Getaways
+# AeroStay – Luxury Stays & Unique Getaways
 
-StayHub is a full-stack web application that allows users to discover, create, and review luxury stays and unique travel experiences around the world. Built with Node.js, Express, MongoDB, and EJS, it provides a smooth and responsive experience with authentication, maps, and image uploads.
-
----
-
-## 🌐 Live Demo
-
-👉 [https://stayhub-t42v.onrender.com](https://stayhub-t42v.onrender.com)
+AeroStay is a full-stack web application that allows users to discover, create, and review luxury stays and unique travel experiences around the world. Built with Node.js, Express, MongoDB, and EJS, it provides a smooth and responsive experience with authentication, maps, and image uploads.
 
 ---
 
 ## 💻 GitHub Repository
 
-👉 [https://github.com/iammadhu123/Project-StayHub.git](https://github.com/iammadhu123/Project-StayHub.git)
+👉 [https://github.com/iammadhu123/Project-StayHub.git](https://github.com/lokeshpatel01/Project-AeroStay.git)
 
 ---
 
@@ -96,13 +90,13 @@ Project-StayHub/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/iammadhu123/Project-StayHub.git
+git clone https://github.com/lokeshpatel01/Project-AeroStay.git
 ```
 
 ### 2. Navigate to the project folder
 
 ```bash
-cd Project-StayHub
+cd Project-AeroStay
 ```
 
 ### 3. Install dependencies
