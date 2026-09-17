@@ -1,0 +1,119 @@
+    .filters-wrapper{
+        position: sticky;
+        top: 80px;
+        z-index: 900;
+        display: flex;
+        margin-top: 0.3rem;
+        margin-bottom: 0.4rem;
+        padding: 0.7rem 1.7rem;
+        background: white;
+        align-items: center;
+        border-bottom: 1px solid #f1f1f1;
+    }
+    #filters{
+        display: flex;
+        align-items: center;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        white-space: nowrap;
+        width: 100%;
+        gap: 0.11rem;
+        padding: 0;
+    }
+    #filters::-webkit-scrollbar {
+    display: none;
+    }
+    .filter{
+        text-align: center;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        min-width: 90px;
+        flex-shrink: 0;
+        opacity: 0.7;
+        text-decoration: none;
+        color: #3e4f66;
+        border-radius: 16px;
+        background: #f1f1f1;
+        padding: 0.7rem 0.6rem 1rem 0.6rem;
+        border: 1px solid transparent;
+        transition: all 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .filter:hover{
+        opacity: 1;
+        cursor: pointer;
+        transform: scale(1.04);
+        background: #ececec;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+        color: #111827;
+    }
+    .filter.active {
+    background: white;
+    border: 1.5px solid #fe424d;
+    color: #111827;
+    }
+    .filter i {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    }
+    .filter p{
+        font-size: 0.8rem;
+        font-weight: 500;
+        line-height: 1rem;
+        margin: 0;
+    }
+    .tax-info{
+        display: none;
+    }
+
+    .tax-toggle{
+        border: 1px solid #e8e8e8;
+        border-radius: 1rem;
+        height: 3.25rem;
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        margin-left: 2rem;
+        align-items: center;
+        flex-shrink: 0;
+        background: white;
+    }
+
+    .scroll-btn{
+        position: absolute;
+        z-index: 10;
+        height: 38px;
+        width: 38px;
+        border-radius: 50%;
+        border: none;
+        background: white;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        cursor: pointer;
+        top: 45%;
+        display: none;
+    }
+
+    .scroll-btn.visible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .left-btn {
+        left: 0;
+    }
+
+    .right-btn {
+        right: 0;
+    }
+
+    @media (max-width: 844px) {
+        .filters-wrapper {
+            position: relative;
+            top: auto;
+            z-index: 1;
+        }
+    }
