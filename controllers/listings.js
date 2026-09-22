@@ -105,6 +105,7 @@ module.exports.renderEditForm = async(req, res, next) => {
 
 module.exports.updateListing = async (req, res, next) => {
     let {id} = req.params;
+    
     let listing = await Listing.findByIdAndUpdate(id, req.body.listing);
 
     const fullLocation = `${req.body.listing.location}, ${req.body.listing.country}`;

@@ -13,6 +13,7 @@ module.exports.listingSchema = Joi.object({
             filename: joi.string().allow("", null),
         }).allow(null),
         price: joi.number().min(0).required(),
+        category: Joi.string().required()
     }).required(),
 });
 
