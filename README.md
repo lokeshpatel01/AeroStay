@@ -1,4 +1,4 @@
-#AeroStay
+# AeroStay
 
 AeroStay is a full-stack accommodation listing platform where users can discover properties, publish and manage their own listings, upload images, leave reviews, and view property locations on an interactive map.
 
